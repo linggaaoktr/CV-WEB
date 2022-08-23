@@ -25,7 +25,11 @@ import HelloWorld from './components/HelloWorld.vue'
        </div>
      -->
 
-     
+    <div class="card-footerin text-muted">
+    Copyright@linggaoktr 2 Hari Lalu
+    </div>
+
+
     </div>
   </header>
 </template>
@@ -96,6 +100,11 @@ nav a:first-of-type {
   }
   .wrapper{
     font-size: 12px;
+  }
+  .card-footerin{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-right: 20px;
   }
 }
 </style>
