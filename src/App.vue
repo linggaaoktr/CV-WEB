@@ -16,7 +16,11 @@ import HelloWorld from './components/HelloWorld.vue'
       </nav>
 
        <div class="card-footer text-muted">
-        2 Hari Lalu
+       <footer>Sosial Media</footer>
+       <a href=""><i class="sosmed fa-brands fa-instagram"></i></a>
+       <a href=""><i class="sosmed fa-brands fa-github"></i></a>
+       <a href=""><i class="sosmed fa-solid fa-envelope"></i></a>
+       <a href=""><i class="sosmed fa-brands fa-whatsapp"></i></a>
        </div>
     
     </div>
@@ -89,6 +93,11 @@ nav a:first-of-type {
   }
   .wrapper{
     font-size: 12px;
+  }
+
+  .sosmed{
+    margin-left: 5px;
+    margin-right: 5px;
   }
 }
 </style>
