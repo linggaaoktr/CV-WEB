@@ -24,6 +24,8 @@ import HelloWorld from './components/HelloWorld.vue'
        <a href=""><i class="sosmed fa-brands fa-whatsapp"></i></a>
        </div>
      -->
+
+     
     </div>
   </header>
 </template>
@@ -87,7 +89,7 @@ nav a:first-of-type {
   nav {
     text-align: left;
     margin-left: -1rem;
-    font-size: 1rem;
+    font-size: 15px;
 
     padding: 1rem 0;
     margin-top: 1rem;

@@ -31,7 +31,7 @@ defineProps({
 </template> -->
 
 <template>
-<div class="card-footer text-muted">
+<div class="card-footer">
        <footer>Sosial Media</footer><br>
        <a href=""><i class="sosmed fa-brands fa-instagram"></i>@iamlinggaa</a><br>
        <a href=""><i class="sosmed fa-brands fa-github"></i>linggaaoktr</a><br>
