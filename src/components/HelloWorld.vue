@@ -6,7 +6,6 @@ defineProps({
   }
 })
 </script>
-
 <!-- <template>
  <div class="latar">
   <div class="greetings">
@@ -31,6 +30,17 @@ defineProps({
   </div>
 </template> -->
 
+<template>
+<div class="card-footer text-muted">
+       <footer>Sosial Media</footer><br>
+       <a href=""><i class="sosmed fa-brands fa-instagram"></i>@iamlinggaa</a><br>
+       <a href=""><i class="sosmed fa-brands fa-github"></i>linggaaoktr</a><br>
+       <a href=""><i class="sosmed fa-solid fa-envelope"></i>linggaoktarina2976@gmail.com</a><br>
+       <a href=""><i class="sosmed fa-brands fa-whatsapp"></i>0895367934076</a><br>
+       </div>
+</template>
+
+
 <style scoped>
 h1 {
   font-weight: 500;
@@ -53,7 +63,14 @@ h3 {
     text-align: left;
   }
 
-
+.sosmed{
+    margin-left: 0.5px;
+    margin-right: 0.5px;
+    padding-bottom: 15px;
+  }
+  .sosmed i{
+    margin-left: 20px;
+  }
 
 }
 </style>

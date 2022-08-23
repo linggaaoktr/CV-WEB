@@ -5,7 +5,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/POTO CV.jpg" width="280" height="280" />
+    <img alt="Vue logo" class="logo" src="@/assets/POTO CV.jpg" width="280" height="280"/>
 
     <div class="wrapper">
       <!-- <HelloWorld msg="Lingga Oktarina" /> -->
@@ -13,16 +13,17 @@ import HelloWorld from './components/HelloWorld.vue'
       <nav>
         <RouterLink to="/">Profile</RouterLink>
         <RouterLink to="/skill">Keahlian</RouterLink>
+        <RouterLink to="/sosmed">Sosial Media</RouterLink>
       </nav>
 
-       <div class="card-footer text-muted">
+       <!-- <div class="card-footer text-muted">
        <footer>Sosial Media</footer>
        <a href=""><i class="sosmed fa-brands fa-instagram"></i></a>
        <a href=""><i class="sosmed fa-brands fa-github"></i></a>
        <a href=""><i class="sosmed fa-solid fa-envelope"></i></a>
        <a href=""><i class="sosmed fa-brands fa-whatsapp"></i></a>
        </div>
-    
+     -->
     </div>
   </header>
 </template>
@@ -93,11 +94,6 @@ nav a:first-of-type {
   }
   .wrapper{
     font-size: 12px;
-  }
-
-  .sosmed{
-    margin-left: 5px;
-    margin-right: 5px;
   }
 }
 </style>
